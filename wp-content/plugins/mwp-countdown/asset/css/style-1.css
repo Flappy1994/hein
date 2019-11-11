@@ -1,0 +1,18 @@
+.wowcountdown-1 {
+	display: inline-block;	
+	background: none; 	
+	padding:10px;
+	border: none; 	
+	text-align: center;
+	width: auto;
+	height: auto;	
+}
+.wowcontnumber-1 {
+	font-size:40px;		
+}
+.wowc-delimiter-1 {
+	font-size:16px;		
+}
+.wowc-title-1 {
+	font-size:16px;	
+}

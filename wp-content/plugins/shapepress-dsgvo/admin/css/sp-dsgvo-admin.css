@@ -1,0 +1,148 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+hr.sp-dsgvo {
+	border: 0;
+	margin-top: 20px;
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #fafafa;
+}
+
+.dsgvo-wrap {
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: calc(100% - 400px);
+
+}
+
+/*************************
+ * Third-party Services
+ ************************/
+textarea.aio-transparent, input.aio-transparent {
+	border: 1px solid rgba(0, 0, 0, 0);
+	background: transparent;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	cursor: pointer;
+}
+
+textarea:focus.aio-transparent, input:focus.aio-transparent {
+	border: 1px solid #ddd;
+}
+
+textarea:hover.aio-transparent, input:hover.aio-transparent {
+	border: 1px solid #eee;
+}
+
+.form-table th {
+	padding: 10px 10px 10px 0;
+}
+
+.form-table td {
+	padding: 10px 10px 10px 0;
+}
+
+.form-table .info-text {
+	font-style: italic;
+	font-size: 90%;
+}
+
+.wrap-premium {
+	float: left;
+	width: 340px;
+	margin-top: 20px;
+}
+
+#dsgvo-checklist {
+	padding-left: 15px;
+}
+
+#dsgvo-checklist li {
+	margin-bottom: 15px;
+}
+
+#dsgvo-premium-featurelist {
+	padding-left: 20px;
+}
+
+#dsgvo-premium-featurelist li {
+	margin-bottom: 15px;
+	font-weight: 600;
+	font-size: 1rem;
+}
+
+#dsgvo-premium-featurelist li:before {
+	content: "\f147";
+	font-family: dashicons;
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	line-height: 20px;
+	font-weight: 400;
+	font-style: normal;
+	vertical-align: top;
+	text-align: center;
+	color: orange;
+	font-size: 30px;
+}
+
+#dsgvo-premium-featurelist-tipps {
+	padding-left: 20px;
+}
+
+#dsgvo-premium-featurelist-tipps li {
+	margin-bottom: 15px;
+		font-weight: 600;
+	font-size: 1rem;
+}
+#dsgvo-premium-featurelist-tipps li:before {
+	content: "\f103";
+	font-family: dashicons;
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	line-height: 20px;
+	font-size : 20px;
+	font-weight: 400;
+	font-style: normal;
+	vertical-align: top;
+	text-align: center;
+	color: orange;
+}
+
+/* i592995 */
+
+.cookie-notice-settings:not(.active),
+.policy-popup-settings:not(.active) {
+	display: none;
+}
+
+.woo-privacy-text {
+	width: 100%;
+}
+
+.ga-code,
+.fb-pixel-code {
+	display: block;
+	width: 100%;
+	height: 200px;
+}
+
+.unsubscribe-dismiss {
+	cursor: pointer;
+}
+
+.unsubscribe-dismiss line {
+	stroke: #000000;
+	stroke-width: 2px;
+}
+
+.form-table td {
+	vertical-align: top;
+}
+
+/* i592995 */

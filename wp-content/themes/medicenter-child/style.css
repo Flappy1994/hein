@@ -1,0 +1,292 @@
+/*
+Theme Name:   MediCenter Child
+Description:  MediCenter Child Theme
+Template:     medicenter
+Version:      1.0
+Text Domain:  medicenter
+*/
+
+/* General
+---------------------------------------------------------------*/
+body {
+	font-size: 15px;
+}
+
+.padding_bottom_0
+{
+	padding-bottom: 0 !important;
+}
+.padding_bottom_15
+{
+	padding-bottom: 15px !important;
+}
+.no_padding
+{
+	padding: 0 !important;
+}
+.padding_top_text{
+	padding-top: 19px !important;
+}
+.padding_top_h5
+{
+	padding-top: 8px;
+}
+.padding_top_ul
+{
+	padding-top: 10px;
+}
+
+strong{
+	color: #666;
+}
+
+p
+{
+	padding: 0.75em 0;
+	line-height: 165%; /*Golden Ratio Typography Calculator -> http://www.pearsonified.com/typography/*/
+	font-size: 15px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Helvetica Light Condensed', 'Arial Narrow', 'Arial', sans-serif;
+}
+
+h3.box_header{
+	/*color: #008161;*/
+	/*font-weight: bold;*/
+}
+
+h4, h5{
+		/*color: #008161;*/
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.contact_style{
+	/*color:#008161;*/
+	font-weight: bold;
+}
+
+.header_left{
+		margin-bottom: -11px;
+}
+
+/* End General
+---------------------------------------------------------------*/
+
+/* Menu
+---------------------------------------------------------------*/
+
+.sf-menu li:hover ul, .sf-menu li.sfHover ul {
+    top: 33px;
+}
+
+.sf-menu li, .sf-menu li:hover{
+	background: none;
+	/*height: 33px;*/
+}
+
+.sf-menu li a{
+	border: none;
+	/*padding: 10px;*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.sf-menu a{
+	border: none;
+}
+
+/* End Menu
+---------------------------------------------------------------*/
+
+/* List
+---------------------------------------------------------------*/
+
+.simple_list_arrow_top .icon_small_arrow{
+	background-position: left 12px;
+}
+.simple_list li {
+	font-size: 15px;
+}
+.simple_list li a{
+	border-bottom: 1px dotted #008161;
+	color: #008161;
+	text-decoration: none;
+	outline: none;
+}
+.simple_list li a:hover{
+	text-decoration: none;
+	border-bottom: 1px solid #008161;
+	color: #008161;
+}
+
+/* End List
+---------------------------------------------------------------*/
+
+/* Sentence
+---------------------------------------------------------------*/
+
+.sentence{
+	color: #008161 !important;
+}
+
+.sentence_author{
+	font-style: italic;
+}
+
+/* End Sentence
+---------------------------------------------------------------*/
+
+/* Sitempap
+---------------------------------------------------------------*/
+
+.sitemap_list .page_item{
+	background-image: url('../medicenter/images/icon_arrow_right_black.png');
+ background-repeat: no-repeat;
+}
+
+.sitemap_list ul{
+	margin: 0;
+	list-style: none;
+	clear: both;
+ padding: 25px 0;
+}
+
+.sitemap_list li{
+	line-height: 150%;
+	background-position: left center;
+	padding: 5px 0 5px 18px;
+}
+
+/* End Sitempap
+---------------------------------------------------------------
+
+/* Slider
+---------------------------------------------------------------*/
+
+.slider_content .subtitle{
+	margin-top: 8px;
+	line-height: 120%;
+}
+
+.slider_content:nth-of-type(1) .title, .slider_content:nth-of-type(1) .subtitle{	
+	color: #2a2a2a;
+	/*text-shadow: 0px 1px 0px rgba(256,256,256,0.5);*/
+	text-shadow: none;
+}
+
+.title{
+	letter-spacing: 1px;
+}
+
+/*Uncomment if text is overlapping face of person*/
+/*.slider_content:nth-of-type(2) h1{
+	font-size: 66px;
+}
+@media screen and (max-width: 1009px){
+	.slider_content:nth-of-type(2) h1 {
+	    font-size: 56px;
+	}
+}
+@media screen and (max-width: 767px){
+	.slider_content:nth-of-type(2) h1 {
+	    font-size: 36px;
+	}
+}
+@media screen and (max-width: 479px){
+	.slider_content:nth-of-type(2) h1 {
+	    font-size: 24px;
+	}
+}*/
+
+/* End Slider
+---------------------------------------------------------------*/
+
+/* Sidebar
+---------------------------------------------------------------*/
+
+/* Home Top */
+.home_box_container:nth-of-type(1), .home_box_container:nth-of-type(2) {
+	padding-bottom: 22px;
+}
+
+/* Footer Top */
+.footer_banner_box {
+    padding-bottom: 40px;
+}
+
+/* End Sidebar
+--------------------------------------------------------------- */
+
+/* Page
+---------------------------------------------------------------*/
+.vc_row-fluid .vc_col-sm-6:nth-of-type(1) {
+    margin-left: 0;
+}
+
+/* End Page
+---------------------------------------------------------------*/
+
+/* Post
+---------------------------------------------------------------*/
+
+.post_content h2{
+	letter-spacing: 1px;
+}
+
+/* End Post
+---------------------------------------------------------------*/
+
+.page_header h1{
+	letter-spacing: 1px;
+}
+
+.page_layout h3{
+	letter-spacing: 1px;
+}
+
+/*.page_header{
+	border-bottom: 2px solid #008161;
+	padding-bottom:30px;
+}*/
+
+@media screen and (max-width: 1009px){
+	.sf-menu{
+		display: none;
+
+	}
+
+	.mobile-menu-switch {
+    display: block;
+	}
+
+	.mobile_menu_container {
+		display: block;
+		margin: 0 auto;
+		padding: 20px 0 30px;
+	}
+
+	.header.layout_1 .mobile_menu, .header.layout_2 .mobile_menu, .header.layout_3 .mobile_menu, .header.layout_4 .mobile_menu {
+   width: 100%;
+	}
+	.header.layout_1 .header_left {
+			float: none;
+			display: table;
+			margin: 0 auto;
+			width: auto;
+	}
+
+	.header, .header_container.sticky.move .header.layout_1, .header_container.sticky.move .header.layout_4 {
+    padding: 18px 0 0 0;
+	}
+
+	@media screen and (max-width: 767px){
+		.slider_content .subtitle {
+	    width: 70%;
+		}
+	}
+}

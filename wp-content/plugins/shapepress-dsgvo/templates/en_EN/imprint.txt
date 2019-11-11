@@ -1,0 +1,18 @@
+[company_name]
+Owner: [company_owner]
+[adress_street]
+[adress_zip_location]
+
+Management: [company_law_person]
+Stockholder: [company_management]
+
+Telephone number: [comm_phone]
+E-Mail address: [comm_email]
+
+Register Court & Register Number: [company_register_court], [company_register_nr]
+
+Sales tax identification number: [company_uid]
+
+Responsible for content: [content_responsible]
+
+European Commission Online Dispute Resolution (OS) platform for consumers: <a href"https://ec.europa.eu/consumers/odr/" target="_blank">https://ec.europa.eu/consumers/odr/</a>. We are not willing and obliged to participate in a dispute settlement procedure before a consumer arbitration board.
